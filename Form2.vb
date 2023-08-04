@@ -5,8 +5,9 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Label1.Text = var1
-    End Sub
+        Dim resp As Integer
+        resp = MessageBox.Show("BotãoYes_No_Cancel", "vb.net",
+        MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation)
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         End
